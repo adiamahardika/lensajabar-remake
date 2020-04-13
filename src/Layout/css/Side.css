@@ -1,24 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.side-banner{
-    max-width: 260px;
-}
-.container .row{
-    margin-top: 5px;
-}
-.news{
+.side .news{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 700;
+    color:  #a91919;
+}
+.side .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .side-news{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
-
 .side-news-images{
     max-width: 100px;
+}
+.side-update{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400i;
 }

@@ -4,13 +4,13 @@
     list-style: none;
 }
 
-.container .row{
+.navv.container .row{
     display: flex;
     padding: 5px;
     justify-content: space-between;
     align-items: center;
 }
-.container .bottom{
+.navv.container .bottom{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -25,7 +25,7 @@
   border-color:lightgray;
   max-width: 500px;
 }
-.container .list{
+.navv.container .list{
     width: 100%;
 }
 .menu-item {

@@ -59,7 +59,7 @@ class Navbar extends Component {
     const menu = this.menuItems;
     
     return (
-      <div className="container">
+      <div className="container navv">
         <div className="top-nav">
           <div className="row">
             <Link to="/">
