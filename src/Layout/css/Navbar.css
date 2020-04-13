@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
 }
+
 .container .row{
     display: flex;
     padding: 5px;
@@ -17,7 +18,12 @@
 }
 
 .navbar-logo{
-    width: 200px;
+    width: 250px;
+}
+.form-control{
+  border-radius: 10px;
+  border-color:lightgray;
+  max-width: 500px;
 }
 .container .list{
     width: 100%;
@@ -27,15 +33,18 @@
     user-select: none;
     cursor: pointer;
     border: none;
+    color: #030b4a;
   }
-  .menu-item-wrapper.active {
-    border: 1px blue solid;
-  }
-  .menu-item.active {
-    border: 1px green solid;
-  }
-   
-  .scroll-menu-arrow {
-    padding: 20px;
-    cursor: pointer;
-  }
+.menu-item:hover{
+  color: #a91919;
+  text-decoration: none;
+}
+
+.menu-item.active {
+  color: #a91919;
+}
+  
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Logo from "../images/logo-lensajabar.png";
 import "./css/Navbar.css";
 import ScrollMenu from "react-horizontal-scrolling-menu";
-
 const list = [
   { name: "Beranda", link: "/" },
   { name: "Nasional", link: "/nasional" },
@@ -34,6 +33,8 @@ export const Menu = (list, selected) =>
 const Arrow = ({ text, className }) => {
   return <div className={className}>{text}</div>;
 };
+
+
 
 const ArrowLeft = Arrow({ text: "<", className: "arrow-prev" });
 const ArrowRight = Arrow({ text: ">", className: "arrow-next" });
@@ -69,19 +70,13 @@ class Navbar extends Component {
                 <input
                   class="form-control mr-sm-2"
                   type="search"
-                  placeholder="Search"
+                  placeholder="Cari Berita"
                   aria-label="Search"
                 />
-                <button
-                  class="btn btn-outline-success my-2 my-sm-0"
-                  type="submit"
-                >
-                  Search
-                </button>
               </form>
             </div>
           </div>
-          <div className="row bottom">
+          <div className="row bottom" >
             <div className="list">
             <ScrollMenu
               data={menu}
