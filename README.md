@@ -1,4 +1,21 @@
+<h1 align='center'>lensajabar.com remake</h1>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation
+1. Open your CLI
+2. Clone this repo
+```
+git clone https://github.com/adiamahardika/lensajabar-remake.git
+```
+3. Install depedencies
+```
+npm install
+```
+4. Start this project
+```
+npm start
+```
 
 ## Available Scripts
 
@@ -66,3 +83,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Screenshot
+<img src='https://user-images.githubusercontent.com/59129342/79139583-c33e2e80-7de0-11ea-9260-f00c04b810c3.png' />
